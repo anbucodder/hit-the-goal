@@ -15,8 +15,8 @@ function load_img(){
 		hole_obj.scaleToWidth(50);
 		hole_obj.scaleToHeight(50);
 		hole_obj.set({
-			top:hole_x,
-			left:hole_y
+			top:hole_y,
+			left:hole_x
 		});
 		canvas.add(hole_obj);
 	});
@@ -29,8 +29,8 @@ function new_image(){
 			ball_obj.scaleToWidth(30);
 			ball_obj.scaleToHeight(30);
 			ball_obj.set({
-				top:ball_x,
-				left:ball_y
+				top:ball_y,
+				left:ball_x
 			});
 			canvas.add(ball_obj);
 		});
